@@ -34,7 +34,7 @@ chrome.history.onVisited.addListener(function(historyItem) {
 				if (data.score < 0) {
 					notification = {
 						type: "basic",
-						title: "Mental App",
+						title: "Vitalize Mind",
 						iconUrl: "puzzle64.png",
 						message: data.message
 					}
